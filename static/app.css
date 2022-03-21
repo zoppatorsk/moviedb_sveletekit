@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200;500&display=swap');
+
+:root {
+	--bg-color-primary: rgb(32, 31, 31);
+	--bg-color-secondary: rgb(22, 22, 22);
+	--fg-color-primary: rgb(249, 250, 251);
+	--fg-color-secondary: white;
+	--fg-link-primary: lightblue;
+	--fg-link-secondary: rgb(67, 200, 245);
+	--bg-light: rgb(243, 243, 243);
+	font-size: 16px;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Noto Sans Display', sans-serif;
+}
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}

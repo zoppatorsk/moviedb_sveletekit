@@ -1,0 +1,9 @@
+take navbar code from italiano -done
+
+take grow main code from ipinfo -done
+
+make footer.. add attributions -done
+
+desing movie details page -done
+
+extract colors into css vars
