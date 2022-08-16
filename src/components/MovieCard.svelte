@@ -4,7 +4,7 @@
 
 <a sveltekit:prefetch href={`/details/${movie.id}`} class="movie-card grow">
 	{#if movie.poster_path == null}
-		<img src={`/static/placeholder200x300.png`} alt="placeholder" />
+		<img src={`/placeholder200x300.png`} alt="placeholder" />
 	{:else}
 		<img
 			src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
